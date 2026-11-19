@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #263859;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+main h2 {
+    color: #263859;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 25px;
+}
+
+main ul {
+    padding-left: 25px;
+}
+
+main li {
+
+    nav {
+    background-color: #18243b;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+    color: #f4c95d;
+}       
+
+
+    margin-bottom: 10px;
+}
+
+.cv-button {
+    display: inline-block;
+    background-color: #263859;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.cv-button:hover {
+    background-color: #f4c95d;
+    color: #263859;
+}
+
+.profile {
+    text-align: center;
+    padding: 25px;
+    background-color: #e8edf5;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.profile h2 {
+    color: #263859;
+    font-size: 22px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #18243b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
